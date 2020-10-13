@@ -6,7 +6,7 @@ Some features may not be laid out the way you would like it but I have developed
 
 Technologies
 ---------------
-- Bootstrap 4.1.3 (Ready to use)
+- Bootstrap 5.0.0-alpha2 (Ready to use)
 - jQuery WP (Ready to use)
 - WordPress Core Styles (Ready to use)
 - SCSS (Ready to use)

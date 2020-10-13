@@ -1,20 +1,5 @@
-/*
-Theme Name: Webfwd Bootstrap SCSS WordPress Theme
-Theme URI: http://www.webfwd.co.uk/
-Description: Extremely lightweight starter theme with bootstrap, jquery, less and loads of functions ready to go.
-Author: Webforward
-Author URI: http://www.webfwd.co.uk
-Version: 1.0
-*/
-
-/* Style.less is where you should start wrinting your css and them complie it to style.css.
-If you have not used Less but have a good understanding of CSS and PHP then you will have no problem
-with less, you can download software to automatically convert or use the online tool at http://less2css.org/
-----------------------------------------------------------------------------------------------------*/
-
-@import "~bootstrap/scss/bootstrap";
-
-$import: "css/wordpress-core.css";
+@import "css/wordpress-core.css";
+@import "css/wordpress-gutenberg.css";
 
 $lg:   "min-width: 1200px";
 $md:   "max-width: 1199px";
@@ -30,8 +15,4 @@ $opacity: 0.75;
 }
 a:hover {
   @extend .opacity;
-}
-
-a {
-  color: #123456;
 }
