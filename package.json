@@ -1,0 +1,23 @@
+{
+  "name": "wordpress-bootstrap-jquery-scss-theme",
+  "version": "1.0.0",
+  "description": "WordPress Starter Bootstrap jQuery SCSS Theme --------------- This is an extremely lightweight starter theme with bootstrap, jquery, scss and loads of functions ready to go.",
+  "main": "",
+  "dependencies": {},
+  "devDependencies": {
+    "bootstrap": "^5.0.0-alpha2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webforward/WordPress-Bootstrap-jQuery-SCSS-theme.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/webforward/WordPress-Bootstrap-jQuery-SCSS-theme/issues"
+  },
+  "homepage": "https://github.com/webforward/WordPress-Bootstrap-jQuery-SCSS-theme#readme"
+}
