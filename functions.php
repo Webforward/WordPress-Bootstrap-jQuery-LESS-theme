@@ -43,7 +43,8 @@ function enquire_js() {
 	wp_enqueue_script( 'functionsjs', get_template_directory_uri() . '/functions.js', array('jquery'), '1.0.0', true );
 
 	// Bootstrap js
-	wp_enqueue_script( 'bootstrapjs', get_template_directory_uri() . '/js/bootstrap.min.js', array('jquery'), '4.1.3', true );
+//	wp_enqueue_script( 'bootstrapjs', get_template_directory_uri() . '/js/bootstrap.min.js', array('jquery'), '4.1.3', true );
+
 }
 
 add_action('wp_enqueue_scripts', 'enquire_js');
