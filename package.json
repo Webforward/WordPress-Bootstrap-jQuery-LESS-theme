@@ -19,7 +19,7 @@
     "webpack-cli": "^4.0.0"
   },
   "scripts": {
-    "watch": "webpack --mode development --watch"
+    "watch": "webpack --watch"
   },
   "repository": {
     "type": "git",
