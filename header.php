@@ -21,12 +21,6 @@
     <meta name="theme-color" content="#ffffff">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="content-type" content="<?php bloginfo('html_type') ?>; charset=<?php bloginfo('charset') ?>"/>
-    <link href="<?php bloginfo('template_url'); ?>/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>" media="screen"/>
-    <!--[if lt IE 9]>
-    <script src="<?php bloginfo('template_url'); ?>/js/html5shiv.js"></script>
-    <script src="<?php bloginfo('template_url'); ?>/js/respond.min.js"></script>
-    <![endif]-->
     <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>

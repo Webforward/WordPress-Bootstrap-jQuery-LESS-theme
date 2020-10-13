@@ -40,7 +40,7 @@ if( function_exists('acf_add_options_page') ) {
 ----------------------------------------------------------------------------------------------------*/
 function enquire_js() {
 	// Functions js
-	wp_enqueue_script( 'functionsjs', get_template_directory_uri() . '/functions.js', array('jquery'), '1.0.0', true );
+	wp_enqueue_script( 'scripts', get_template_directory_uri() . '/build/scripts.min.js', array('jquery'), '1.0.0', true );
 
 	// Bootstrap js
 //	wp_enqueue_script( 'bootstrapjs', get_template_directory_uri() . '/js/bootstrap.min.js', array('jquery'), '4.1.3', true );
@@ -52,7 +52,7 @@ add_action('wp_enqueue_scripts', 'enquire_js');
 /* `Enquire CSS resources
 ----------------------------------------------------------------------------------------------------*/
 function enquire_css() {
-    wp_enqueue_style( 'style', get_template_directory_uri() . '/style.min.css' );
+    wp_enqueue_style( 'style', get_template_directory_uri() . '/build/styles.min.css' );
 }
 
 add_action( 'wp_enqueue_scripts', 'enquire_css', 99 );
