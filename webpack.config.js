@@ -75,6 +75,33 @@ function cssModules() {
                     'sass-loader'
                 ]
             },
+            {
+                test: /\.(png|svg|jpe?g|gif)$/,
+                use: [
+                    {
+                        loader: 'file-loader',
+                        options: {
+                            name: '[name].[ext]',
+                            outputPath: 'build/images/',
+                            publicPath: 'build/images/'
+                        }
+                    }
+                ]
+            },
+            {
+                test: /\.(ttf|eot|woff|woff2)$/,
+                use: [
+                    {
+                        loader: 'file-loader',
+                        options: {
+                            name: '[name].[ext]',
+                            outputPath: 'build/fonts/',
+                            publicPath: 'build/fonts/'
+                        }
+                    }
+                ]
+            }
+
         ]
     };
 }
