@@ -82,8 +82,8 @@ function cssModules() {
                         loader: 'file-loader',
                         options: {
                             name: '[name].[ext]',
-                            outputPath: 'build/images/',
-                            publicPath: 'build/images/'
+                            outputPath: 'images/',
+                            publicPath: 'images/'
                         }
                     }
                 ]
@@ -95,8 +95,8 @@ function cssModules() {
                         loader: 'file-loader',
                         options: {
                             name: '[name].[ext]',
-                            outputPath: 'build/fonts/',
-                            publicPath: 'build/fonts/'
+                            outputPath: 'fonts/',
+                            publicPath: 'fonts/'
                         }
                     }
                 ]
