@@ -39,6 +39,29 @@ module.exports = [
         optimization: cssOptimisation()
     },
     {
+        name: 'login',
+        entry: './src/style-login.scss',
+        output: {
+            path: path.resolve(__dirname, 'build'),
+            filename: 'style-login.min.js'
+        },
+        module: cssModules(),
+        plugins: [
+            new MiniCssExtractPlugin({
+                path: path.resolve(__dirname, 'build'),
+                filename: 'style-login.min.css'
+            }),
+            new RemovePlugin({
+                after: {
+                    include: [
+                        './build/style-login.min.js'
+                    ]
+                }
+            })
+        ],
+        optimization: cssOptimisation()
+    },
+    {
         name: 'css',
         entry: './src/app.scss',
         output: {
