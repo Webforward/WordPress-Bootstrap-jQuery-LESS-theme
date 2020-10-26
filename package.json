@@ -21,7 +21,6 @@
     "webpack-cli": "^4.0.0"
   },
   "scripts": {
-    "install": "npm i",
     "build": "webpack --mode=production",
     "watch": "webpack --mode=development --watch"
   },
