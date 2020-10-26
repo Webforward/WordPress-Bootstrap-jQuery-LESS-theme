@@ -52,7 +52,8 @@ add_action('wp_enqueue_scripts', 'enquire_js');
 /* `Enquire CSS resources
 ----------------------------------------------------------------------------------------------------*/
 function enquire_css() {
-    wp_enqueue_style( 'style', get_template_directory_uri() . '/build/styles.min.css' );
+	wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/build/bootstrap.min.css' );
+   	wp_enqueue_style( 'style', get_template_directory_uri() . '/build/styles.min.css' );
 }
 
 add_action( 'wp_enqueue_scripts', 'enquire_css', 99 );
