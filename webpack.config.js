@@ -13,6 +13,13 @@ module.exports = [
             path: path.resolve(__dirname, 'build'),
             filename: 'scripts.min.js'
         },
+        plugins: [
+            new webpack.ProvidePlugin({
+                // $: "jquery",
+                jQuery: "jquery",
+                // "window.jQuery": "jquery"
+            })
+        ],
         optimization: cssOptimisation()
     },
     {
