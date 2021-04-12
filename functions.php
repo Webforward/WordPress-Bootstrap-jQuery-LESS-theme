@@ -388,6 +388,11 @@ function admin_bar(){
     }
 }
 
+function get_alt_tag($id){
+	$alt = get_post_meta( $id, '_wp_attachment_image_alt', true);
+	return $alt;
+}
+
 /* `Add more functions
 ----------------------------------------------------------------------------------------------------*/
 
